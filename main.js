@@ -68,6 +68,17 @@ nextThree.addEventListener('click', () => {
   document.getElementById('word-four').innerText = 'DAY';
   document.getElementById('word-five').innerText = 'TO';
   document.getElementById('word-six').innerText = 'YOU!';
+
+  document.getElementById('letter-note-one').innerText = 'F';
+  document.getElementById('letter-note-two').innerText = 'F';
+  document.getElementById('letter-note-three').innerText = 'E';
+  document.getElementById('letter-note-four').innerText = 'C';
+  document.getElementById('letter-note-five').innerText = 'D';
+  document.getElementById('letter-note-six').innerText = 'C';
+  lastLyric.style.display = 'none';
+  nextThree.hidden = true;
+  startOver.hidden = false;
+
 })
 
 // This is the event handler property and function for the startOver button

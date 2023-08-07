@@ -47,7 +47,17 @@ nextOne.addEventListener('click', () => {
 })
 
 // Write anonymous event handler property and function for the second progress button
-
+nextTwo.addEventListener('click', () => {
+  nextTwo.hidden = true;
+  nextThree.hidden = false;
+  document.getElementById('letter-note-three').innerText = 'G';
+  document.getElementById('letter-note-four').innerText = 'E';
+  document.getElementById('letter-note-five').innerText = 'C';
+  document.getElementById('letter-note-six').innerText = 'B';
+  document.getElementById('word-five').innerText='DEAR';
+  document.getElementById('word-six').innerText='FRI-';
+  lastLyric.style.display = 'inline-block';
+})
 
 // Write anonymous event handler property and function for the third progress button
 

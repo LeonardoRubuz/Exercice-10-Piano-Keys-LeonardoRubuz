@@ -42,6 +42,8 @@ startOver.hidden= true;
 nextOne.addEventListener('click', () => {
   nextOne.hidden = true;
   nextTwo.hidden = false;
+  document.getElementById('letter-note-five').innerText = 'D';
+  document.getElementById('letter-note-six').innerText = 'C';
 })
 
 // Write anonymous event handler property and function for the second progress button
